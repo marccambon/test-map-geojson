@@ -1,0 +1,114 @@
+{
+  "type": "FeatureCollection",
+  "name": "Test GeoJSON Collection",
+  "description": "Fictitious data for GitHub feature testing",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.032, 38.913]
+      },
+      "properties": {
+        "id": "feat1",
+        "name": "Capital Building",
+        "type": "landmark",
+        "color": "#ff0000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [-77.032, 38.913],
+          [-76.532, 38.313],
+          [-75.322, 39.113]
+        ]
+      },
+      "properties": {
+        "id": "feat2",
+        "name": "Key Locations",
+        "type": "reference_points"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.032, 38.913],
+          [-77.022, 38.923],
+          [-77.012, 38.933]
+        ]
+      },
+      "properties": {
+        "id": "feat3",
+        "name": "Main Road",
+        "type": "transportation",
+        "length": 1.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-77.032, 38.913],
+            [-77.022, 38.903],
+            [-77.012, 38.903],
+            [-77.002, 38.913],
+            [-77.012, 38.923],
+            [-77.022, 38.923]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "feat4",
+        "name": "Central Park",
+        "type": "park",
+        "area": 0.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-76.532, 38.313],
+              [-76.522, 38.303],
+              [-76.512, 38.303],
+              [-76.502, 38.313],
+              [-76.512, 38.323],
+              [-76.522, 38.323]
+            ]
+          ],
+          [
+            [
+              [-75.322, 39.113],
+              [-75.312, 39.103],
+              [-75.302, 39.103],
+              [-75.292, 39.113],
+              [-75.302, 39.123],
+              [-75.312, 39.123]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "feat5",
+        "name": "City Districts",
+        "type": "administrative",
+        "count": 2
+      }
+    }
+  ],
+  "metadata": {
+    "created": "2025-07-30T10:00:00Z",
+    "creator": "Lumo AI Assistant",
+    "version": "1.0"
+  }
+}
