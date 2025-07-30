@@ -1,114 +1,183 @@
 {
   "type": "FeatureCollection",
-  "name": "Test GeoJSON Collection",
-  "description": "Fictitious data for GitHub feature testing",
+  "name": "Global Test Points with Variable Weight Circles",
+  "description": "GeoJSON with worldwide locations and variable weight circles",
   "features": [
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.032, 38.913]
+        "coordinates": [2.3522, 48.8566]  // Paris, France
       },
       "properties": {
-        "id": "feat1",
-        "name": "Capital Building",
-        "type": "landmark",
-        "color": "#ff0000"
+        "id": "loc1",
+        "name": "Paris",
+        "country": "France",
+        "value": 85,
+        "weight": 0.85,
+        "radius": 85000,
+        "color": "#ff0000",
+        "category": "major_city"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPoint",
-        "coordinates": [
-          [-77.032, 38.913],
-          [-76.532, 38.313],
-          [-75.322, 39.113]
-        ]
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7128]  // New York, USA
       },
       "properties": {
-        "id": "feat2",
-        "name": "Key Locations",
-        "type": "reference_points"
+        "id": "loc2",
+        "name": "New York",
+        "country": "USA",
+        "value": 92,
+        "weight": 0.92,
+        "radius": 92000,
+        "color": "#0000ff",
+        "category": "major_city"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [-77.032, 38.913],
-          [-77.022, 38.923],
-          [-77.012, 38.933]
-        ]
+        "type": "Point",
+        "coordinates": [139.6917, 35.6895]  // Tokyo, Japan
       },
       "properties": {
-        "id": "feat3",
-        "name": "Main Road",
-        "type": "transportation",
-        "length": 1.2
+        "id": "loc3",
+        "name": "Tokyo",
+        "country": "Japan",
+        "value": 78,
+        "weight": 0.78,
+        "radius": 78000,
+        "color": "#00ff00",
+        "category": "major_city"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-77.032, 38.913],
-            [-77.022, 38.903],
-            [-77.012, 38.903],
-            [-77.002, 38.913],
-            [-77.012, 38.923],
-            [-77.022, 38.923]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [151.2093, -33.8688]  // Sydney, Australia
       },
       "properties": {
-        "id": "feat4",
-        "name": "Central Park",
-        "type": "park",
-        "area": 0.45
+        "id": "loc4",
+        "name": "Sydney",
+        "country": "Australia",
+        "value": 65,
+        "weight": 0.65,
+        "radius": 65000,
+        "color": "#ffff00",
+        "category": "major_city"
       }
     },
     {
       "type": "Feature",
       "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
-          [
-            [
-              [-76.532, 38.313],
-              [-76.522, 38.303],
-              [-76.512, 38.303],
-              [-76.502, 38.313],
-              [-76.512, 38.323],
-              [-76.522, 38.323]
-            ]
-          ],
-          [
-            [
-              [-75.322, 39.113],
-              [-75.312, 39.103],
-              [-75.302, 39.103],
-              [-75.292, 39.113],
-              [-75.302, 39.123],
-              [-75.312, 39.123]
-            ]
-          ]
-        ]
+        "type": "Point",
+        "coordinates": [-46.6333, -23.5500]  // São Paulo, Brazil
       },
       "properties": {
-        "id": "feat5",
-        "name": "City Districts",
-        "type": "administrative",
-        "count": 2
+        "id": "loc5",
+        "name": "São Paulo",
+        "country": "Brazil",
+        "value": 58,
+        "weight": 0.58,
+        "radius": 58000,
+        "color": "#ff00ff",
+        "category": "major_city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0473, -26.2041]  // Johannesburg, South Africa
+      },
+      "properties": {
+        "id": "loc6",
+        "name": "Johannesburg",
+        "country": "South Africa",
+        "value": 42,
+        "weight": 0.42,
+        "radius": 42000,
+        "color": "#00ffff",
+        "category": "major_city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2245, 28.6139]  // Delhi, India
+      },
+      "properties": {
+        "id": "loc7",
+        "name": "Delhi",
+        "country": "India",
+        "value": 95,
+        "weight": 0.95,
+        "radius": 95000,
+        "color": "#ff9900",
+        "category": "major_city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.3972, 39.9075]  // Beijing, China
+      },
+      "properties": {
+        "id": "loc8",
+        "name": "Beijing",
+        "country": "China",
+        "value": 88,
+        "weight": 0.88,
+        "radius": 88000,
+        "color": "#9900ff",
+        "category": "major_city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.1276, 51.5074]  // London, UK
+      },
+      "properties": {
+        "id": "loc9",
+        "name": "London",
+        "country": "UK",
+        "value": 72,
+        "weight": 0.72,
+        "radius": 72000,
+        "color": "#00ff99",
+        "category": "major_city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7633, -41.2865]  // Wellington, New Zealand
+      },
+      "properties": {
+        "id": "loc10",
+        "name": "Wellington",
+        "country": "New Zealand",
+        "value": 33,
+        "weight": 0.33,
+        "radius": 33000,
+        "color": "#99ff00",
+        "category": "capital_city"
       }
     }
   ],
   "metadata": {
-    "created": "2025-07-30T10:00:00Z",
+    "created": "2025-07-30T12:00:00Z",
     "creator": "Lumo AI Assistant",
-    "version": "1.0"
+    "version": "1.1",
+    "note": "Radius values are in meters for visualization purposes"
   }
 }
