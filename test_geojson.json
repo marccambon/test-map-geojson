@@ -7,7 +7,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3522, 48.8566]  // Paris, France
+        "coordinates": [2.3522, 48.8566] 
       },
       "properties": {
         "id": "loc1",
@@ -24,7 +24,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-74.0060, 40.7128]  // New York, USA
+        "coordinates": [-74.0060, 40.7128] 
       },
       "properties": {
         "id": "loc2",
@@ -41,7 +41,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [139.6917, 35.6895]  // Tokyo, Japan
+        "coordinates": [139.6917, 35.6895] 
       },
       "properties": {
         "id": "loc3",
@@ -58,7 +58,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [151.2093, -33.8688]  // Sydney, Australia
+        "coordinates": [151.2093, -33.8688]  
       },
       "properties": {
         "id": "loc4",
@@ -75,7 +75,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-46.6333, -23.5500]  // São Paulo, Brazil
+        "coordinates": [-46.6333, -23.5500] 
       },
       "properties": {
         "id": "loc5",
@@ -92,7 +92,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [28.0473, -26.2041]  // Johannesburg, South Africa
+        "coordinates": [28.0473, -26.2041]  
       },
       "properties": {
         "id": "loc6",
@@ -109,7 +109,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [77.2245, 28.6139]  // Delhi, India
+        "coordinates": [77.2245, 28.6139]  
       },
       "properties": {
         "id": "loc7",
@@ -126,7 +126,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3972, 39.9075]  // Beijing, China
+        "coordinates": [116.3972, 39.9075]  
       },
       "properties": {
         "id": "loc8",
@@ -143,7 +143,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.1276, 51.5074]  // London, UK
+        "coordinates": [-0.1276, 51.5074]  
       },
       "properties": {
         "id": "loc9",
@@ -160,7 +160,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [174.7633, -41.2865]  // Wellington, New Zealand
+        "coordinates": [174.7633, -41.2865]  
       },
       "properties": {
         "id": "loc10",
